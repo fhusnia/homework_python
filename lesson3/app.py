@@ -14,7 +14,7 @@
 #     if i % 9999 == 0:
 #         print(i)
 #         break
-
+#
 
 #3
 #'I study Python every day’ bu stringin saitlər çıxarılmış vəziyyətini konsolda göstərin.
@@ -40,3 +40,19 @@
 
         
 # print(len(result))
+
+
+#Girilən ədədin sadə bölənlərini göstərən kod hazırlayın. Örnək 12 ⇒ 2, 2, 3
+# values = input()
+# for i in range(2,int(values)):
+#     if int(values) % i == 0:
+#         print(int(values) // i )
+        # while int(values) // i >= 0:
+        #     print(int(values))
+
+num = 133
+inter = range(num)
+result = 0
+for i in inter:
+    result += i
+print(result)     
