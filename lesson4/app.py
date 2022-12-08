@@ -125,11 +125,12 @@
 
 #d---->
 
-# result = 0
-# for i in r :
-#     result += i
+r=[31, 38, 69, 83, 83, 56, 38, 41, 96, 48, 43, 60, 49, 47, 73, 60, 69, 96, 50, 74]
+result = 0
+for i in r :
+    if i > 80:
+     result += 1
 
-# print(result / len(r))
-
+print( (result * 100) / len(r))
 
 
