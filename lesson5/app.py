@@ -11,6 +11,9 @@
 # Dict = dict((x.strip(), y.strip())
 #              for x, y in (element.split(' ') 
 #              for element in string.split(', ')))
+# for element in string.split(' , '):
+#     print(element)
+
 # user_info.update(Dict)
 # print(user_info)
 
@@ -135,7 +138,7 @@
 # listone = [2384, 12385, 13226, 653, 12362423] 
 # list içərisindəki ədədlərin key olduğu və value-ların həmin ədədlərin rəqəm sayı 
 # olduğu bir dictionary hazırlayın
-# result={i : int(i) for i in listone}
+# result={str(i) : len(str(i)) for i in listone}
 # print(result)
 
 # -100-dən müsbət 100-ə qədər ədədlər arasında 7-yə bölünən ədədlərin 3-ə vurulmasından ibarət bir list qurun.
@@ -151,3 +154,26 @@
 # del1 = info.pop(1)
 # del2 = info.pop(1)
 # print(info)
+
+# user_info = {
+#     'firstname': 'Elvin',
+#     'lastname': 'Huseynov',
+#     'username': 'elivin_h_ov',
+#     'password': '12345',
+#     'birthday': '19-08-1997'
+# }
+# user_input = "firstname Elcin, username elchina, birthday 18-08-2000"
+
+# info = user_input.split(', ')
+
+# new_info = {}
+
+# for datas in info:
+
+#         data = datas.split()
+        
+#         new_info[data[0]] = data[1]
+
+# user_info.update(new_info)
+
+# print(new_info)
