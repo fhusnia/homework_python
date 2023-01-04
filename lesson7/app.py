@@ -20,8 +20,13 @@
 # n1 = 15 
 # n2 = 13
 # print('%s + %s = %s' % (n1,n2,n1+n2))
-#  cd
+
 #3
-# number =[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29]
+# number = range(0,30)
 # for a in number:
 #     print('{0:0}  {0:b}  {0:o}  {0:x}'.format(a))
+
+def reverse(*arg):
+    for a in arg:
+        return a[::-1]
+print(reverse(12,13))
