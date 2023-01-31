@@ -24,13 +24,13 @@
 
 # def find_percent(a,b):
 #     if b < a:
-#         result=round((-(b-a)/200)*100)
-#         print(str(result) + '%' + ' azalmisdir' )
+#         result=round((-(b-a)/a)*100)
+#         print(str(result) +  '%' + ' azalmisdir' )
 #     elif b > a:
-#         result=str(((b-a)/200)*100)
+#         result=str(((b-a)/a)*100)
 #         find2 = result.find('.')
 #         print(result[:find2] + '%'+ ' artmisdir')
-# find_percent(200, 360)
+# find_percent(200, 60)
 
 # Girilən listin ən böyük ədədindən ən kiçiyini çıxarıb, nəticə verən bir funksiya hazırlayın.
 # big_dif_sml([6, 3, 8, 9, 2]) => 7 # en  boyuk 9, en kicik 2
@@ -39,7 +39,6 @@
 #     for arg in args:
 #         arg.sort()
 #         print(arg[len(arg) - 1] - arg[0])
-
 # big_dif_sml([6, 3, 8, 9, 2])
 
 # def getReversedSum(*args):  
@@ -97,7 +96,7 @@
 # }
 # print(physic.get('s')(2,4))
 
-# Lambda ilə factorial hesablayan recursive function hazırlayın. (ev tapsirigi deyil)
+# Lambda ilə factorial hesablayan recursive function hazırlayın.
 
 # factorial = lambda x: 1 if x == 1 else x * factorial(x-1)
 # print(factorial(3))
